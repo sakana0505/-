@@ -37,6 +37,7 @@ void CWaterPlace::Initialize(float px, float py, int type) {
 	m_PosY = py;
 	m_bShow = true;
 	//アニメーションを作成
+	//現状静止画ですが、モーションでき次第差し替えも可能
 	SpriteAnimationCreate anim = {
 		"水場",
 		0,0,
